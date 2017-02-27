@@ -20,5 +20,6 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	branchLength*=fractionLength;
 	int endX1 = (int)(branchLength*Math.cos(angle1) + x);
 	int endY1 = (int)(branchLength*Math.sin(angle1) + y);
-	line()
+	int endX2 = (int)(branchLength*Math.cos(angle1) - x);
+	int endY2 = (int)(branchLength*Math.cos(angle1) - x);
 } 
